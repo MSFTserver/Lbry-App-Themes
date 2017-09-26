@@ -1,9 +1,9 @@
 #### Themes for [LBRY-app](https://github.com/lbryio/lbry-app) a graphical browser for the decentralized content marketplace provided by the LBRY protocol.
 ---
 ### Using Themes
-##### 1) start by navigating to the application folder itself (directories can be found [Here](https://lbry.io/faq/lbry-directories))
-##### 2) navigate to `\resources\app\dist\themes`
-##### 3) open the themes folder and place the .css inside 
+#### 1) start by navigating to the application folder itself (directories can be found [Here](https://lbry.io/faq/lbry-directories))
+#### 2) navigate to `\resources\app\dist\themes`
+#### 3) open the themes folder and place the .css inside 
 ###### 4) if the app is open go to Developer -> reload)
 ### ENJOY!
 ---
