@@ -1,0 +1,67 @@
+:root {
+  --aqua: #89e0fd;
+  --dark-blue: #236b7b;
+  --bright-yellow: #ceff08;
+  --black: #000000;
+  --white: #ffffff;
+    /* Colors */
+    --color-primary:  var(--aqua);
+    --color-canvas: var(--aqua);
+    --color-bg: var(--dark-blue);
+    --color-bg-alt: var(--aqua);
+    --color-help: var(--aqua);
+    --color-error: var(--bright-yellow);
+    --color-load-screen-text: var(--white);
+    --color-money: var(--color-primary);
+    --color-meta-light: var(--aqua);
+    --color-dark-overlay: rgba(15, 21, 23, 0.85);
+    --select-color: var(--dark-blue);
+    /* Text */
+    --text-color: var(--aqua);
+    --text-selection-bg: rgba(51, 202, 188, 0.95);
+    /* Input */
+    --input-bg: transparent;
+    --input-active-bg: rgba(0, 0, 0, 0.5);
+    --input-border-color: rgba(255,255,255, 0.25);
+    --input-color: var(--aqua);
+    /* Search */
+    --search-bg: var(--aqua);
+    --search-color: var(--black);
+    --search-active-bg: var(--aqua);
+    --search-border: 1px solid rgba(0,0,0, 0.25);
+    /* Tab */
+    --tab-color: var(--black);
+    --tab-active-color: var(--black);
+    /* Header */
+    --header-color: var(--aqua);
+    --header-active-color: var(--aqua);
+    --header-button-bg: transparent;
+    /* Table */
+    --table-border: 0;
+    --table-item-even: transparent;
+    --table-item-odd: transparent;
+    /* Modla */
+    --modal-overlay-bg: var(--color-dark-overlay);
+    --modal-border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.wunderbar .icon, .button-primary, .file-list__header .sort-section {
+    color: var(--dark-blue);
+}
+
+p, .card__icon-featured-content, .sort-section, .video__play-button, .video__loading-status, .truncated-text, .file-download {
+    color: var(--aqua);
+}
+
+a, .card-row__header, .tooltip--header .tooltip__link {
+    color: var(--black);
+}
+
+.header__item .button-alt, .file-download__overlay {
+    background: var(--aqua) !important;
+    color: var(--dark-blue);
+}
+
+code {
+    background-color: transparent;
+}

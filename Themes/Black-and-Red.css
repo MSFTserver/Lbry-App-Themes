@@ -1,0 +1,60 @@
+:root {
+  --red: #b52929;
+	--black: #000000;
+    /* Colors */
+    --color-primary: var(--red);
+    --color-canvas: var(--red);
+    --color-bg:  var(--black);
+    --color-bg-alt: var(--red);
+    --color-help: var(--red);
+    --color-error: var(--red);
+    --color-load-screen-text: var(--red);
+    --color-money: var(--red);
+    --color-meta-light: var(--red);
+    --color-dark-overlay: rgba(15, 21, 23, 0.85);
+    --select-color: var(--black);
+    /* Text */
+    --text-color: var(--red);
+    --text-selection-bg: rgba(0, 0, 0, 0.95);
+    /* Input */
+    --input-bg: transparent;
+    --input-active-bg: rgba(0, 0, 0, 0.5);
+    --input-border-color: rgba(255,255,255, 0.25);
+    --input-color: var(--red);
+    /* Search */
+    --search-bg: #3a3a3a;
+    --search-color: var(--red);
+    --search-active-bg: var(--black);
+    --search-border: 1px solid rgba(0,0,0, 0.25);
+    /* Tab */
+    --tab-color: var(--black);
+    --tab-active-color: var(--black);
+    /* Header */
+    --header-color: var(--black);
+    --header-active-color: var(--black);
+    --header-button-bg: transparent;
+    /* Table */
+    --table-border: 0;
+    --table-item-even: transparent;
+    --table-item-odd: transparent;
+    /* Modla */
+    --modal-overlay-bg: var(--color-dark-overlay);
+    --modal-border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+p, .truncated-text, .card__icon-featured-content, .wunderbar .icon, .sort-section, .button-text, .video__play-button, .video__loading-status, .file-download {
+    color: var(--red);
+}
+
+a, .card-row__header, .button-primary, .file-list__header .sort-section, .tooltip--header .tooltip__link {
+    color: var(--black);
+}
+
+.header__item .button-alt, .file-download__overlay {
+    background: var(--red) !important;
+    color: var(--black);
+}
+
+code {
+    background-color: transparent;
+}

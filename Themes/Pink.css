@@ -1,0 +1,67 @@
+:root {
+	--pink:  #eb86f7;
+	--purple: #b100d0;
+	--dark-purple: #6b0077;
+	--black: #000000;
+    /* Colors */
+    --color-primary: var(--pink);
+    --color-canvas: var(--pink);
+    --color-bg:  var(--purple);
+    --color-bg-alt: var(--pink);
+    --color-help: var(--pink);
+    --color-error: var(--pink);
+    --color-load-screen-text: var(--pink);
+    --color-money: var(--pink);
+    --color-meta-light: var(--pink);
+    --color-dark-overlay: rgba(15, 21, 23, 0.85);
+    --select-color: var(--black);
+    /* Text */
+    --text-color: var(--pink);
+    --text-selection-bg: rgba(0, 0, 0, 0.95);
+
+    /* Input */
+    --input-bg: transparent;
+    --input-active-bg: rgba(0, 0, 0, 0.5);
+    --input-border-color: rgba(255,255,255, 0.25);
+    --input-color: var(--pink);
+    /* Search */
+    --search-bg: var(--dark-purple);
+    --search-color: var(--pink);
+    --search-active-bg: var(--pink);
+    --search-border: 1px solid rgba(0,0,0, 0.25);
+
+    /* Tab */
+    --tab-color: var(--pink);
+    --tab-active-color: var(--pink);
+
+    /* Header */
+    --header-color: var(--purple);
+    --header-active-color: var(--purple);
+    --header-button-bg: transparent;
+
+    /* Table */
+    --table-border: 0;
+    --table-item-even: transparent;
+    --table-item-odd: transparent;
+
+    /* Modla */
+    --modal-overlay-bg: var(--color-dark-overlay);
+    --modal-border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+p, .truncated-text, .card__icon-featured-content, .wunderbar .icon, .sort-section, .video__play-button, .video__loading-status, .file-download {
+    color: var(--pink);
+}
+
+a, .file-list__header .sort-section, .button-primary, .card-row__header, .tooltip--header .tooltip__link {
+    color: var(--purple);
+}
+
+.header__item .button-alt, .file-download__overlay {
+    background: var(--pink) !important;
+    color: var(--purple);
+}
+
+code {
+    background-color: transparent;
+}

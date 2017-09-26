@@ -1,0 +1,62 @@
+:root {
+	--light-grey:  #bdbdbd;
+	--dark-grey: #6d6d6d;
+	--grey: #a2a2a2;
+	--black: #000000;
+    /* Colors */
+    --color-primary: var(--light-grey);
+    --color-canvas: var(--grey);
+    --color-bg:  var(--dark-grey);
+    --color-bg-alt: var(--light-grey);
+    --color-help: var(--light-grey);
+    --color-error: var(--light-grey);
+    --color-load-screen-text: var(--light-grey);
+    --color-money: var(--light-grey);
+    --color-meta-light: var(--light-grey);
+    --color-dark-overlay: rgba(15, 21, 23, 0.85);
+    --select-color: var(--black);
+    /* Text */
+    --text-color: var(--light-grey);
+    --text-selection-bg: rgba(0, 0, 0, 0.95);
+    /* Input */
+    --input-bg: transparent;
+    --input-active-bg: rgba(0, 0, 0, 0.5);
+    --input-border-color: rgba(255,255,255, 0.25);
+    --input-color: var(--light-grey);
+    /* Search */
+    --search-bg: var(--dark-grey);
+    --search-color: var(--light-grey);
+    --search-active-bg: var(--light-grey);
+    --search-border: 1px solid rgba(0,0,0, 0.25);
+    /* Tab */
+    --tab-color: var(--dark-grey);
+    --tab-active-color: var(--dark-grey);
+    /* Header */
+    --header-color: var(--black);
+    --header-active-color: var(--black);
+    --header-button-bg: transparent;
+    /* Table */
+    --table-border: 0;
+    --table-item-even: transparent;
+    --table-item-odd: transparent;
+    /* Modla */
+    --modal-overlay-bg: var(--color-dark-overlay);
+    --modal-border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+p, .truncated-text, .card__icon-featured-content, .wunderbar .icon, .sort-section, .video__play-button, .video__loading-status, .file-download {
+    color: var(--light-grey);
+}
+
+a, .card-row__header, .button-primary, .file-list__header .sort-section, .tooltip--header .tooltip__link {
+    color: var(--dark-grey);
+}
+
+.header__item .button-alt, .file-download__overlay {
+    background: var(--light-grey) !important;
+    color: var(--dark-grey);
+}
+
+code {
+    background-color: transparent;
+}

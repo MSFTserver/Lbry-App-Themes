@@ -1,0 +1,63 @@
+:root {
+  --light-blue:  rgba(0, 162, 255, 0.47);
+	--ice-blue: rgb(0, 200, 234);
+	--sky-blue: #abe4ff;
+	--white: #ffffff;
+	--black: #000000;
+    /* Colors */
+    --color-primary: var(--light-blue);
+    --color-canvas: var(--sky-blue);
+    --color-bg: var(--ice-blue);
+    --color-bg-alt: var(--light-blue);
+    --color-help: var(--white);
+    --color-error: var(--white);
+    --color-load-screen-text: var(--white);
+    --color-money: var(--white);
+    --color-meta-light: var(--white);
+    --color-dark-overlay: rgba(15, 21, 23, 0.85);
+    --select-color: var(--white);
+    /* Text */
+    --text-color: var(--white);
+    --text-selection-bg: rgba(0, 0, 0, 0.95);
+    /* Input */
+    --input-bg: transparent;
+    --input-active-bg: rgba(0, 0, 0, 0.5);
+    --input-border-color: rgba(255,255,255, 0.25);
+    --input-color: var(--white);
+    /* Search */
+    --search-bg: var(--white);
+    --search-color: var(--light-blue);
+    --search-active-bg: var(--light-blue);
+    --search-border: 1px solid rgba(0,0,0, 0.25);
+    /* Tab */
+    --tab-color: var(--white);
+    --tab-active-color: var(--white);
+    /* Header */
+    --header-color: var(--white);
+    --header-active-color: var(--white);
+    --header-button-bg: transparent;
+    /* Table */
+    --table-border: 0;
+    --table-item-even: transparent;
+    --table-item-odd: transparent;
+    /* Modla */
+    --modal-overlay-bg: var(--color-dark-overlay);
+    --modal-border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+p, a, .truncated-text, .card-row__header, .card__icon-featured-content, .sort-section, .tooltip--header .tooltip__link, .button-primary, .button-text, .video__loading-status, .file-download {
+    color: var(--white);
+}
+
+.wunderbar .icon, .video__play-button {
+    color: var(--light-blue);
+}
+
+.header__item .button-alt, .file-download__overlay {
+    background: var(--light-blue) !important;
+    color: var(--white);
+}
+
+code {
+    background-color: transparent;
+}

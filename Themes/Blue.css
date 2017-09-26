@@ -1,0 +1,61 @@
+:root {
+  --light-blue:  #869af7;
+	--blue: #001796;
+	--black: #000000;
+    /* Colors */
+    --color-primary: var(--light-blue);
+    --color-canvas: var(--light-blue);
+    --color-bg:  var(--blue);
+    --color-bg-alt: var(--light-blue);
+    --color-help: var(--light-blue);
+    --color-error: var(--light-blue);
+    --color-load-screen-text: var(--light-blue);
+    --color-money: var(--light-blue);
+    --color-meta-light: var(--light-blue);
+    --color-dark-overlay: rgba(15, 21, 23, 0.85);
+    --select-color: var(--black);
+    /* Text */
+    --text-color: var(--light-blue);
+    --text-selection-bg: rgba(0, 0, 0, 0.95);
+    /* Input */
+    --input-bg: transparent;
+    --input-active-bg: rgba(0, 0, 0, 0.5);
+    --input-border-color: rgba(255,255,255, 0.25);
+    --input-color: var(--light-blue);
+    /* Search */
+    --search-bg: var(--light-blue);
+    --search-color: var(--blue);
+    --search-active-bg: var(--light-blue);
+    --search-border: 1px solid rgba(0,0,0, 0.25);
+    /* Tab */
+    --tab-color: var(--light-blue);
+    --tab-active-color: var(--light-blue);
+    /* Header */
+    --header-color: var(--black);
+    --header-active-color: var(--black);
+    --header-button-bg: transparent;
+    /* Table */
+    --table-border: 0;
+    --table-item-even: transparent;
+    --table-item-odd: transparent;
+    /* Modla */
+    --modal-overlay-bg: var(--color-dark-overlay);
+    --modal-border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+p, .truncated-text, .card__icon-featured-content, .sort-section, .video__play-button, .video__loading-status, .file-download {
+    color: var(--light-blue);
+}
+
+a, .card-row__header, .button-primary, .wunderbar .icon, .file-list__header .sort-section, .tooltip--header .tooltip__link {
+    color: var(--blue);
+}
+
+.header__item .button-alt, .file-download__overlay {
+    background: var(--light-blue) !important;
+    color: var(--blue);
+}
+
+code {
+    background-color: transparent;
+}

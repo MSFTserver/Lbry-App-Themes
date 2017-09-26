@@ -1,0 +1,61 @@
+:root {
+  --orange: #e35b00;
+	--black: #000000;
+	--grey: #2d2d2d;
+    /* Colors */
+    --color-primary: var(--orange);
+    --color-canvas: var(--grey);
+    --color-bg: var(--black);
+    --color-bg-alt: var(--orange);
+    --color-help: var(--orange);
+    --color-error: var(--orange);
+    --color-load-screen-text: var(--orange);
+    --color-money: var(--orange);
+    --color-meta-light: var(--orange);
+    --color-dark-overlay: rgba(15, 21, 23, 0.85);
+    --select-color: var(--black);
+    /* Text */
+    --text-color: var(--orange);
+    --text-selection-bg: rgba(0, 0, 0, 0.95);
+    /* Input */
+    --input-bg: transparent;
+    --input-active-bg: rgba(0, 0, 0, 0.5);
+    --input-border-color: rgba(255,255,255, 0.25);
+    --input-color: var(--orange);
+    /* Search */
+    --search-bg: var(--grey);
+    --search-color: var(--orange);
+    --search-active-bg: var(--orange);
+    --search-border: 1px solid rgba(0,0,0, 0.25);
+    /* Tab */
+    --tab-color: var(--orange);
+    --tab-active-color: var(--orange);
+    /* Header */
+    --header-color: var(--black);
+    --header-active-color: var(--black);
+    --header-button-bg: transparent;
+    /* Table */
+    --table-border: 0;
+    --table-item-even: transparent;
+    --table-item-odd: transparent;
+    /* Modla */
+    --modal-overlay-bg: var(--color-dark-overlay);
+    --modal-border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+p, .truncated-text, .card-row__header, .card__icon-featured-content, .wunderbar .icon, .sort-section, .tooltip--header .tooltip__link, .video__play-button, .video__loading-status, .file-download {
+    color: var(--orange);
+}
+
+a, .button-primary {
+    color: var(--black);
+}
+
+.header__item .button-alt, .file-download__overlay {
+    background: var(--orange) !important;
+    color: var(--black);
+}
+
+code {
+    background-color: transparent;
+}
