@@ -1,7 +1,7 @@
 #### Themes for [LBRY-app](https://github.com/lbryio/lbry-app) a graphical browser for the decentralized content marketplace provided by the LBRY protocol.
 ---
 ### [LBRY](https://lbry.io):
-##### a protocol providing fully decentralized network for the discovery, distribution, and payment of data. It utilizes the LBRY blockchain as a global namespace and database of digital content. Blockchain entries contain searchable content metadata, identities, and rights and access rules.
+#### A protocol providing fully decentralized network for the discovery, distribution, and payment of data. It utilizes the LBRY blockchain as a global namespace and database of digital content. Blockchain entries contain searchable content metadata, identities, and rights and access rules.
 ###### LBRY is a free, open, and community-run digital marketplace.
 ###### You own your data. You control the network. Indeed, you are the network.
 ###### [Learn More](https://lbry.io/what)
