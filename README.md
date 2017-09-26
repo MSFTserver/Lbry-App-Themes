@@ -4,7 +4,8 @@
 ##### 1) start by navigating to the application folder itself (directories can be found [Here](https://lbry.io/faq/lbry-directories))
 ##### 2) navigate to `\resources\app\dist\themes`
 ##### 3) open the themes folder and place the .css inside 
-##### 4) ENJOY!
+###### 4) if the app is open go to Developer -> reload)
+### ENJOY!
 ---
 ### Examples
 ![Theme-Pack](https://spee.ch/5b217c19cf5973ee24b4acf2c4d5866073e08e27/Theme-Pack.gif)
