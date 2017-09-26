@@ -1,4 +1,3 @@
-<p align:"center"><img src="http://cryptomining-blog.com/wp-content/uploads/2016/10/lbry-logo.jpg" /></p>
 #### Themes for [LBRY-app](https://github.com/lbryio/lbry-app) a graphical browser for the decentralized content marketplace provided by the LBRY protocol.
 ---
 ### [LBRY](https://lbry.io):
