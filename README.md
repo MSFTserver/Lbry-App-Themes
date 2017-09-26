@@ -1,11 +1,5 @@
 #### Themes for [LBRY-app](https://github.com/lbryio/lbry-app) a graphical browser for the decentralized content marketplace provided by the LBRY protocol.
 ---
-### [LBRY](https://lbry.io):
-#### A protocol providing fully decentralized network for the discovery, distribution, and payment of data. It utilizes the LBRY blockchain as a global namespace and database of digital content. Blockchain entries contain searchable content metadata, identities, and rights and access rules.
-###### LBRY is a free, open, and community-run digital marketplace.
-###### You own your data. You control the network. Indeed, you are the network.
-###### [Learn More](https://lbry.io/what)
----
 ### Using Themes
 ##### 1) start by navigating to the application folder itself (directories can be found [Here](https://lbry.io/faq/lbry-directories))
 ##### 2) navigate to `\resources\app\dist\themes`
@@ -58,4 +52,14 @@ https://spee.ch/266bb230b24b157b9ddd4f855e1830feac86bbfb/black-and-red.png
 ---
 ![black-and-redinverse](https://spee.ch/1d35b17d7408040ae91fb4d5af93590595247e04/black-and-redinverse.png)
 https://spee.ch/1d35b17d7408040ae91fb4d5af93590595247e04/black-and-redinverse.png
+---
+  </details>
+  </p>
+  
+---
+### [LBRY](https://lbry.io):
+#### A protocol providing fully decentralized network for the discovery, distribution, and payment of data. It utilizes the LBRY blockchain as a global namespace and database of digital content. Blockchain entries contain searchable content metadata, identities, and rights and access rules.
+###### LBRY is a free, open, and community-run digital marketplace.
+###### You own your data. You control the network. Indeed, you are the network.
+###### [Learn More](https://lbry.io/what)
 ---
